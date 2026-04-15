@@ -1,7 +1,7 @@
 import { Syne, Fraunces, DM_Mono } from 'next/font/google';
 import { Toaster } from 'react-hot-toast';
-import Navbar from '../components/layout/Navbar';
-import Footer from '../components/layout/Footer';
+import Navbar from '@/components/layout/navbar';
+import Footer from '@/components/layout/footer';
 import './globals.css';
 
 const syne = Syne({ subsets: ['latin'], variable: '--font-syne', weight: ['400', '500', '600', '700', '800'] });
